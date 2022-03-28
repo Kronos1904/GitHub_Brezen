@@ -10,7 +10,9 @@ namespace ukolbrezen
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Zadejte první číslo");
             int cislo1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Zadejte druhé číslo");
             int cislo2 = Convert.ToInt32(Console.ReadLine());
             int max = Math.Max(cislo1, cislo2);
             int min = Math.Min(cislo1, cislo2);
