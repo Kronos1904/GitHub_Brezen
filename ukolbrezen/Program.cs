@@ -18,6 +18,10 @@ namespace ukolbrezen
             int min = Math.Min(cislo1, cislo2);
             Console.WriteLine($"{max} > {min}");
             Console.ReadKey();
+            if (cislo1 == cislo2)
+            {
+                Console.WriteLine("Čísla jsou shodná");
+            }
         }
     }
 }
